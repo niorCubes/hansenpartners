@@ -1,0 +1,948 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    <!-- Import Tailwind CSS -->
+    <link rel="stylesheet" href="public/output.css">
+    <!-- Tab Icon -->
+    <link rel="icon" href="assets/tab-icon.png">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <script src="js\index.js" defer></script>
+    <title>Services | Pleasanton Real Estate | Julie Hansen Partnership</title>
+</head>
+<body>
+    <!-- MAIN CONTAINER -->
+    <div class="main-container flex flex-col gap-y-32 font-sansSerif relative">
+        <!-- Hidden Nav bar for Search bar -->
+        <div class="" id="hidden-nav" >
+            <div class="flex justify-between items-center py-1">
+                <div class="w-[60%] shrink-0">
+                    <!-- Search bar -->
+                    <div class="w-full p-1">
+                        <input type="search" class="outline-none bg-transparent w-full p-1" name="" id="" placeholder="Search by Address or Area">
+                    </div>
+                </div>
+                <div>
+                    <button class="hidden lg:flex items-center gap-x-2 hover:text-[#C68306]">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                            <path d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+                            <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
+                        </svg> 
+                        BOOK AN APPOINTMENT
+                    </button>
+
+                    <button class="block lg:hidden hover:text-[#C68306]">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                            <path d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+                            <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
+                        </svg> 
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner Container -->
+        <div class="grid grid-cols-12 auto-rows-min h-screen relative">
+            <!-- video bg for banner -->
+            <video autoplay muted loop src="assets/banner-video.mp4" class="w-full h-full absolute object-cover brightness-[.30]"></video>
+
+            <!-- nav bar -->
+            <nav class="z-10 text-white col-span-12 px-12 lg:px-28 flex justify-between py-11 relative">
+                <!-- LOGO -->
+                <div class="">
+                    <a href=""><img src="assets/logo.png" alt="logo/home" class="w-40"></a>
+                </div>
+
+                <!-- MIDDEL LINKS -->
+                <div class="hidden gap-9 xl:flex">
+                    <div><a href="https://hansenpartners.net/home-search/listings" class="font-sansSerif font-bold hover:text-[#C68306] transition-all">SEARCH FOR HOMES</a></div>
+                    <div><a href="index.html" class="font-sansSerif font-bold hover:text-[#C68306] transition-all">SERVICES</a></div>
+                    <div><a href="https://hansenpartners.net/FeaturedListingHOA" class="font-sansSerif font-bold hover:text-[#C68306] transition-all">HOMES ACCROSS AMERICA</a></div>
+                </div>
+
+                <!-- MORE AND CONTACT US -->
+                <div class="hidden gap-9 xl:flex">
+                    <!-- More - Dropdown Button -->
+                    <div class="relative ">
+                        <button id="btn-more" class="flex items-center gap-x-2 hover:text-[#C68306] transition-all">
+                            MORE
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+                            </svg>                      
+                        </button>
+
+                        <!-- Hidden Dropwdown MEnu -->
+                        <div class=" bg-white text-black absolute top-9 right-2 drop-shadow-lg hidden-menu hidden" id="hidden-menu">
+                            <!-- Meet the team -->
+                            <div class="p-6 hover:bg-[#525252] hover:text-white">
+                                <a href="https://hansenpartners.net/team" class="flex items-center gap-x-4">
+                                    <div>
+                                        <i class="bi bi-people-fill text-2xl"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">MEET THE TEAM</h4>
+                                        <p class="font-light truncate">Aenean ultrices dictum sem at elementum. 
+                                            Curabitur tincidunt arcu erat, vitae 
+                                            dictum purus dictum ut.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Home Valuation -->
+                            <div class="p-6 hover:bg-[#525252] hover:text-white">
+                                <a href="https://hansenpartners.net/home-valuation" class="flex items-center gap-x-4">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z" />
+                                            <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd" />
+                                          </svg>
+                                                                                 
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">HOME VALUATION</h4>
+                                        <p class="font-light truncate">
+                                            Sed vestibulum, risus sit amet fermentum
+                                             rhoncus, magna dolor scelerisque eros, 
+                                             in dignissim massa ipsum in nisi.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- Our Communities -->
+                            <div class="p-6 hover:bg-[#525252] hover:text-white">
+                                <a href="https://hansenpartners.net/neighborhoods" class="flex items-center gap-x-4">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
+                                          </svg>
+                                                                               
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">OUR COMMUNITIES</h4>
+                                        <p class="font-light truncate">
+                                            Aenean ultrices dictum sem at elementum. 
+                                            Curabitur tincidunt arcu erat, vitae 
+                                            dictum purus dictum ut.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- TESTIMONIALS -->
+                            <div class="p-6 hover:bg-[#525252] hover:text-white">
+                                <a href="https://hansenpartners.net/testimonials" class="flex items-center gap-x-4">
+                                    <div>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                            <path fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z" clip-rule="evenodd" />
+                                          </svg>
+                                                                                  
+                                    </div>
+                                    <div>
+                                        <h4 class="font-bold">TESTIMONIALS</h4>
+                                        <p class="font-light truncate">
+                                            Aenean ultrices dictum sem at elementum. 
+                                            Curabitur tincidunt arcu erat, vitae 
+                                            dictum purus dictum ut.
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    
+                    <a href="#" class="flex items-center gap-x-2 hover:text-[#C68306] transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                            <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                        </svg>                      
+                        CONTACT US
+                    </a>
+                </div>
+
+                <!-- Hamburger Button -->
+                <div class="xl:hidden block">
+                    <button id="hamburger-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7">
+                            <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                          </svg>                          
+                    </button>
+                </div>
+
+                <!-- Hamburger Menus -->
+                <div class="hidden xl:hidden" id="hidden-hamburger-menu">
+                    <div class="bg-white absolute top-0 bottom-0 left-0 right-0 z-20 w-full h-screen p-10 flex flex-col gap-y-5">
+                        <!-- Close Button -->
+                        <button class="self-end flex gap-x-3 items-center text-xl font-bold text-black" id="btn-close-hidden-menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                              </svg>                          
+                             Close
+                        </button>
+                        <!-- Menu List -->
+                        <div class="grid grid-cols-12 gap-2">
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <i class="bi bi-people-fill text-2xl"></i>
+                                </div>
+                                <a href="https://hansenpartners.net/team">MEET THE TEAM</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path d="M8.25 10.875a2.625 2.625 0 115.25 0 2.625 2.625 0 01-5.25 0z" />
+                                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm-1.125 4.5a4.125 4.125 0 102.338 7.524l2.007 2.006a.75.75 0 101.06-1.06l-2.006-2.007a4.125 4.125 0 00-3.399-6.463z" clip-rule="evenodd" />
+                                      </svg>                                  
+                                </div>
+                                <a href="https://hansenpartners.net/home-search/listings">SEARCH FOR HOMES</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path d="M21.721 12.752a9.711 9.711 0 00-.945-5.003 12.754 12.754 0 01-4.339 2.708 18.991 18.991 0 01-.214 4.772 17.165 17.165 0 005.498-2.477zM14.634 15.55a17.324 17.324 0 00.332-4.647c-.952.227-1.945.347-2.966.347-1.021 0-2.014-.12-2.966-.347a17.515 17.515 0 00.332 4.647 17.385 17.385 0 005.268 0zM9.772 17.119a18.963 18.963 0 004.456 0A17.182 17.182 0 0112 21.724a17.18 17.18 0 01-2.228-4.605zM7.777 15.23a18.87 18.87 0 01-.214-4.774 12.753 12.753 0 01-4.34-2.708 9.711 9.711 0 00-.944 5.004 17.165 17.165 0 005.498 2.477zM21.356 14.752a9.765 9.765 0 01-7.478 6.817 18.64 18.64 0 001.988-4.718 18.627 18.627 0 005.49-2.098zM2.644 14.752c1.682.971 3.53 1.688 5.49 2.099a18.64 18.64 0 001.988 4.718 9.765 9.765 0 01-7.478-6.816zM13.878 2.43a9.755 9.755 0 016.116 3.986 11.267 11.267 0 01-3.746 2.504 18.63 18.63 0 00-2.37-6.49zM12 2.276a17.152 17.152 0 012.805 7.121c-.897.23-1.837.353-2.805.353-.968 0-1.908-.122-2.805-.353A17.151 17.151 0 0112 2.276zM10.122 2.43a18.629 18.629 0 00-2.37 6.49 11.266 11.266 0 01-3.746-2.504 9.754 9.754 0 016.116-3.985z" />
+                                      </svg>
+                                </div>
+                                <a href="https://hansenpartners.net/neighborhoods">OUR COMMUNITIES</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path d="M10.464 8.746c.227-.18.497-.311.786-.394v2.795a2.252 2.252 0 01-.786-.393c-.394-.313-.546-.681-.546-1.004 0-.323.152-.691.546-1.004zM12.75 15.662v-2.824c.347.085.664.228.921.421.427.32.579.686.579.991 0 .305-.152.671-.579.991a2.534 2.534 0 01-.921.42z" />
+                                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v.816a3.836 3.836 0 00-1.72.756c-.712.566-1.112 1.35-1.112 2.178 0 .829.4 1.612 1.113 2.178.502.4 1.102.647 1.719.756v2.978a2.536 2.536 0 01-.921-.421l-.879-.66a.75.75 0 00-.9 1.2l.879.66c.533.4 1.169.645 1.821.75V18a.75.75 0 001.5 0v-.81a4.124 4.124 0 001.821-.749c.745-.559 1.179-1.344 1.179-2.191 0-.847-.434-1.632-1.179-2.191a4.122 4.122 0 00-1.821-.75V8.354c.29.082.559.213.786.393l.415.33a.75.75 0 00.933-1.175l-.415-.33a3.836 3.836 0 00-1.719-.755V6z" clip-rule="evenodd" />
+                                      </svg>
+                                </div>
+                                <a href="https://hansenpartners.net/home-valuation">HOME VALUATION</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path fill-rule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd" />
+                                        <path d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
+                                        <path fill-rule="evenodd" d="M12.556 17.329l4.183 4.182a3.375 3.375 0 004.773-4.773l-3.306-3.305a6.803 6.803 0 01-1.53.043c-.394-.034-.682-.006-.867.042a.589.589 0 00-.167.063l-3.086 3.748zm3.414-1.36a.75.75 0 011.06 0l1.875 1.876a.75.75 0 11-1.06 1.06L15.97 17.03a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                                      </svg>
+                                      
+                                </div>
+                                <a href="index.html">SERVICES</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM6.262 6.072a8.25 8.25 0 1010.562-.766 4.5 4.5 0 01-1.318 1.357L14.25 7.5l.165.33a.809.809 0 01-1.086 1.085l-.604-.302a1.125 1.125 0 00-1.298.21l-.132.131c-.439.44-.439 1.152 0 1.591l.296.296c.256.257.622.374.98.314l1.17-.195c.323-.054.654.036.905.245l1.33 1.108c.32.267.46.694.358 1.1a8.7 8.7 0 01-2.288 4.04l-.723.724a1.125 1.125 0 01-1.298.21l-.153-.076a1.125 1.125 0 01-.622-1.006v-1.089c0-.298-.119-.585-.33-.796l-1.347-1.347a1.125 1.125 0 01-.21-1.298L9.75 12l-1.64-1.64a6 6 0 01-1.676-3.257l-.172-1.03z" clip-rule="evenodd" />
+                                      </svg>
+                                      
+                                </div>
+                                <a href="https://hansenpartners.net/FeaturedListingHOA">HOMES ACROSS AMERICA</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                        <path fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0112 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 01-3.476.383.39.39 0 00-.297.17l-2.755 4.133a.75.75 0 01-1.248 0l-2.755-4.133a.39.39 0 00-.297-.17 48.9 48.9 0 01-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97zM6.75 8.25a.75.75 0 01.75-.75h9a.75.75 0 010 1.5h-9a.75.75 0 01-.75-.75zm.75 2.25a.75.75 0 000 1.5H12a.75.75 0 000-1.5H7.5z" clip-rule="evenodd" />
+                                      </svg>
+                                </div>
+                                <a href="https://hansenpartners.net/testimonials">TESTIMONIALS</a>
+                            </div>
+                            <div class="p-5 bg-black flex items-center gap-x-3 hover:scale-[102%] ease-in-out duration-200 lg:col-span-4 md:col-span-6 col-span-12 font-bold">
+                                <div>
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                                        <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                                    </svg> 
+                                </div>
+                                <a href="#">CONTACT US</a>
+                            </div>
+                        </div>
+
+                        <!-- Bottom Close Button -->
+                        <button class="self-center absolute bottom-16 text-xl font-bold text-black" id="bottom-btn-close-hidden-menu">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 011.06 0L12 10.94l5.47-5.47a.75.75 0 111.06 1.06L13.06 12l5.47 5.47a.75.75 0 11-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 01-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                              </svg>                          
+                        </button>
+                    </div>
+                </div>
+                
+            </nav>
+
+            <!-- Call to actions -->
+            <main class="px-12 xl:px-12 2xl:px-28 z-0 col-span-12 flex justify-center items-end text-white font-sansSerif mt-6 xl:mt-20">
+                <div class="w-2/5 flex flex-col gap-y-5 justify-center items-center text-center">
+                    <h1 class="text-3xl xl:text-5xl font-bold font-serif flex gap-x-3 mb-4 xl:mb-12">
+                        SERVICES
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-8 h-8 xl:w-12 xl:h-12">
+                            <path fill-rule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd" />
+                            <path d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
+                            <path fill-rule="evenodd" d="M12.556 17.329l4.183 4.182a3.375 3.375 0 004.773-4.773l-3.306-3.305a6.803 6.803 0 01-1.53.043c-.394-.034-.682-.006-.867.042a.589.589 0 00-.167.063l-3.086 3.748zm3.414-1.36a.75.75 0 011.06 0l1.875 1.876a.75.75 0 11-1.06 1.06L15.97 17.03a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                        </svg>                      
+                    </h1>
+                    <H3 class="text-lg xl:text-2xl font-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quas est vitae eligendi molestias provident sequi, 
+                        modi atque eius fugit adipisci?
+                    </H3>
+
+                    <!-- Search and Book Button -->
+                    <div class="flex lg:gap-y-2 flex-col items-center 
+                                xl:flex-row xl:items-stretch xl:justify-center 
+                                gap-x-4 w-full">
+                        <!-- Search Bar -->
+                        <div class="flex items-center bg-[#525252] w-full xl:w-[62%] px-4">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                <path fill-rule="evenodd" d="M10.5 3.75a6.75 6.75 0 100 13.5 6.75 6.75 0 000-13.5zM2.25 10.5a8.25 8.25 0 1114.59 5.28l4.69 4.69a.75.75 0 11-1.06 1.06l-4.69-4.69A8.25 8.25 0 012.25 10.5z" clip-rule="evenodd" />
+                            </svg>                      
+                            <input class=" outline-none text-white w-full p-4 bg-transparent" type="search" name="" id="" placeholder="Search by Address or Area">
+                        </div>
+
+                        <!-- book an appointment button -->
+                        <div class="w-full xl:w-fit shrink-0">
+                            <button class="flex gap-x-3 bg-transparent border-4 border-white p-3 w-full justify-center hover:bg-white hover:text-black transition-all">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                                    <path d="M12.75 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM7.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM8.25 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM9.75 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM10.5 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM12.75 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM14.25 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 17.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 15.75a.75.75 0 100-1.5.75.75 0 000 1.5zM15 12.75a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM16.5 13.5a.75.75 0 100-1.5.75.75 0 000 1.5z" />
+                                    <path fill-rule="evenodd" d="M6.75 2.25A.75.75 0 017.5 3v1.5h9V3A.75.75 0 0118 3v1.5h.75a3 3 0 013 3v11.25a3 3 0 01-3 3H5.25a3 3 0 01-3-3V7.5a3 3 0 013-3H6V3a.75.75 0 01.75-.75zm13.5 9a1.5 1.5 0 00-1.5-1.5H5.25a1.5 1.5 0 00-1.5 1.5v7.5a1.5 1.5 0 001.5 1.5h13.5a1.5 1.5 0 001.5-1.5v-7.5z" clip-rule="evenodd" />
+                                </svg>                      
+                                BOOK AN APPOINTMENT
+                            </button>
+                        </div>
+                    </div>
+                    
+
+                    <p class="text-sm xl:text-lg font-light">
+                        Duis quis imperdiet libero. Vivamus at 
+                        sodales magna. Duis at dui tempor tortor 
+                        feugiat vehicula ac eu ligula.
+                    </p>
+                </div>
+            </main>
+            
+            <!-- Down Chevron Icon -->
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 z-0 absolute left-0 right-0 bottom-10 mx-auto text-white ">
+                <path fill-rule="evenodd" d="M12.53 16.28a.75.75 0 01-1.06 0l-7.5-7.5a.75.75 0 011.06-1.06L12 14.69l6.97-6.97a.75.75 0 111.06 1.06l-7.5 7.5z" clip-rule="evenodd" />
+            </svg>          
+
+        </div>
+
+        <!-- Details -->
+        <!-- Comprehensive Marketing Plan  -->
+        <div class="px-12 lg:px-28 z-0">
+            <h1 class="text-3xl mb-3 font-serif text-center
+                    xl:text-4xl xl:mb-6">
+                    Comprehensive Marketing Plan
+            </h1>
+            <div class="flex flex-col justify-center items-center gap-x-10
+                        xl:flex-row xl:justify-center xl:items-center xl:gap-x-10">
+                <div class="flex flex-col items-center">
+                    <img src="assets/responsive.png" width="280" alt="">
+                    <h3 class="font-serif text-2xl text-center mb-3">Responsive</h3>
+                    <p class="text-center">I am always available via phone, text, or email.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="assets/syndication.png" width="280" alt="">
+                    <h3 class="font-serif text-2xl text-center mb-3">Syndication</h3>
+                    <p class="text-center">I market your property locally, nationally, and internationally.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="assets/virtual tour.png" width="280" alt="">
+                    <h3 class="font-serif text-2xl text-center mb-3">Virtual Tour</h3>
+                    <p class="text-center">Let's make your home stand out with a high quality virtual tour.</p>
+                </div>
+                <div class="flex flex-col items-center">
+                    <img src="assets/photography.png" width="280" alt="">
+                    <h3 class="font-serif text-2xl text-center mb-3">Photography</h3>
+                    <p class="text-center">Beatiful, high-end photography is a central part of our marketing plan for your property.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Decor Guidance and Intentional Layout -->
+        <div class="grid grid-cols-12 grid-rows-4 xl:grid-rows-6 px-12 lg:px-28 gap-5 z-0">
+            <!-- Decor Guidance -->
+           <div class="col-span-12 xl:col-span-8 row-span-1 xl:row-span-3 bg-slate-400 py-32 xl:py-52 flex justify-center items-center relative">
+                <img src="/assets/image 2.png" class="w-full h-full absolute object-cover brightness-[.30] hover:scale-90 ease-in-out duration-300" alt="">
+                <h2 class="font-serif text-2xl font-bold xl:text-4xl z-10 text-white">Decor guidance</h2>
+            </div>
+            <!-- Staging Expertise -->
+           <div class="col-span-12 xl:col-span-4 row-span-1 xl:row-span-3 bg-blue-300 flex flex-col gap-y-10 justify-center items-center relative text-white">
+                <img src="/assets/image 3.png" class="w-full h-full absolute object-cover brightness-[.30] hover:scale-90 ease-in-out duration-300" alt="">
+                <h2 class="font-serif text-2xl font-bold xl:text-4xl z-10 text-white">My Staging Expertise</h2>
+                <ul class="list-disc z-10">
+                    <li><p>Unclutter and organize your home</p></li>
+                    <li><p>Neatly arrange drawers and cabinets</p></li>
+                    <li><p>Keep pets outdoors or off the premises</p></li>
+                    <li><p>Play soft music</p></li>
+                </ul>
+            </div>
+            <!-- Bullet list 2 -->
+           <div class="col-span-12 xl:col-span-4 row-span-1 xl:row-span-3 bg-red-300 flex justify-center items-center relative text-white">
+                <img src="/assets/image 4.png" class="w-full h-full absolute object-cover brightness-[.30] hover:scale-90 ease-in-out duration-300" alt="">
+                <ul class="list-disc z-10">
+                    <li><p>Unclutter and organize your home</p></li>
+                    <li><p>Neatly arrange drawers and cabinets</p></li>
+                    <li><p>Keep pets outdoors or off the premises</p></li>
+                    <li><p>Play soft music</p></li>
+                </ul>
+            </div>
+            <!-- Intentional Layout -->
+           <div class="col-span-12 xl:col-span-8 row-span-1 xl:row-span-3 bg-orange-300 flex justify-center items-center text-white relative">
+                <img src="/assets/image 6.png" class="w-full h-full absolute object-cover brightness-[.30] hover:scale-90 ease-in-out duration-300" alt="">
+                <h2 class="font-serif text-2xl font-bold xl:text-4xl z-10 text-white">Intentional layout</h2> 
+            </div>
+        </div>
+
+        <!-- ----------- Divider -------------- -->
+        <div class="flex justify-center">
+            <hr class="w-[10%] bg-[#52525299] h-1">
+        </div>
+        <!-- ----------- Divider -------------- -->
+
+        <!-- The selling process -->
+        <div class="px-12 lg:px-28 space-y-8 z-0">
+            <h1 class="font-serif text-3xl xl:text-4xl text-center mb-10">The Selling Process</h1>
+
+            <!-- INITIAL CONSULTATION & PLANNING -->
+            <div class="flex justify-between items-center py-3 xl:px-36">
+                <div class="w-1/2">
+                    <h1 class="text-2xl xl:text-5xl font-black font-serif text-[#525252]">01</h1>
+                    <h2 class="text-2xl xl:text-2xl font-semibold font-serif mb-4 text-[#525252]">INITIAL CONSULTATION & PLANNING</h2>
+                    <p class="text-sm xl:text-base">
+                        Lorem ipsum dolor sit amet, consectetur
+                         adipiscing elit. Aenean ultrices dictum
+                          sem at elementum. 
+                    </p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-24 h-24 xl:w-44 xl:h-44 text-[#525252]">
+                        <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zM6 12a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V12zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 15a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V15zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75zM6 18a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75H6.75a.75.75 0 01-.75-.75V18zm2.25 0a.75.75 0 01.75-.75h3.75a.75.75 0 010 1.5H9a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+                      </svg>                      
+                </div>
+            </div>
+            <!-- DEVISE & EXECUTE MARKETING PLAN -->
+            <div class="flex justify-between items-center py-3 xl:px-36 text-right">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-24 h-24 xl:w-44 xl:h-44 text text-[#525252]">
+                        <path fill-rule="evenodd" d="M9.315 7.584C12.195 3.883 16.695 1.5 21.75 1.5a.75.75 0 01.75.75c0 5.056-2.383 9.555-6.084 12.436A6.75 6.75 0 019.75 22.5a.75.75 0 01-.75-.75v-4.131A15.838 15.838 0 016.382 15H2.25a.75.75 0 01-.75-.75 6.75 6.75 0 017.815-6.666zM15 6.75a2.25 2.25 0 100 4.5 2.25 2.25 0 000-4.5z" clip-rule="evenodd" />
+                        <path d="M5.26 17.242a.75.75 0 10-.897-1.203 5.243 5.243 0 00-2.05 5.022.75.75 0 00.625.627 5.243 5.243 0 005.022-2.051.75.75 0 10-1.202-.897 3.744 3.744 0 01-3.008 1.51c0-1.23.592-2.323 1.51-3.008z" />
+                    </svg>                       
+                </div>
+                <div class="w-1/2">
+                    <h1 class="text-2xl xl:text-5xl font-black font-serif text-[#525252]">02</h1>
+                    <h2 class="text-2xl xl:text-2xl font-semibold font-serif mb-4 text-[#525252]">DEVISE & EXECUTE MARKETING PLAN</h2>
+                    <p class="text-sm xl:text-base">
+                        Mauris egestas semper felis id laoreet. 
+                        Sed vestibulum, risus sit amet fermentum 
+                        rhoncus, magna dolor scelerisque eros, in 
+                        dignissim massa ipsum in nisi. 
+                    </p>
+                </div>
+            </div>
+            <!-- REVIEW OFFERS & REACH AGREEMENT WITH BUYER -->
+            <div class="flex justify-between items-center py-3 xl:px-36">
+                <div class="w-1/2">
+                    <h1 class="text-2xl xl:text-5xl font-black font-serif text-[#525252]">03</h1>
+                    <h2 class="text-2xl xl:text-2xl font-semibold font-serif mb-4 text-[#525252]">REVIEW OFFERS & REACH AGREEMENT WITH BUYER</h2>
+                    <p class="text-sm xl:text-base">
+                        Quisque sollicitudin at nibh et varius. 
+                        Vivamus eu nisl et lectus volutpat volutpat. 
+                        In sit amet eleifend mauris. Nullam consectetur 
+                        eleifend libero nec porttitor.
+                    </p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-24 h-24 xl:w-44 xl:h-44 text-[#525252]">
+                        <path d="M21.731 2.269a2.625 2.625 0 00-3.712 0l-1.157 1.157 3.712 3.712 1.157-1.157a2.625 2.625 0 000-3.712zM19.513 8.199l-3.712-3.712-8.4 8.4a5.25 5.25 0 00-1.32 2.214l-.8 2.685a.75.75 0 00.933.933l2.685-.8a5.25 5.25 0 002.214-1.32l8.4-8.4z" />
+                        <path d="M5.25 5.25a3 3 0 00-3 3v10.5a3 3 0 003 3h10.5a3 3 0 003-3V13.5a.75.75 0 00-1.5 0v5.25a1.5 1.5 0 01-1.5 1.5H5.25a1.5 1.5 0 01-1.5-1.5V8.25a1.5 1.5 0 011.5-1.5h5.25a.75.75 0 000-1.5H5.25z" />
+                    </svg>                  
+                </div>
+            </div>
+            <!-- COMPLETE TRANSACTION PROCESS -->
+            <div class="flex justify-between items-center py-3 xl:px-36 text-right">
+                <div class="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-24 h-24 xl:w-44 xl:h-44 text-[#525252]">
+                        <path fill-rule="evenodd" d="M9 1.5H5.625c-1.036 0-1.875.84-1.875 1.875v17.25c0 1.035.84 1.875 1.875 1.875h12.75c1.035 0 1.875-.84 1.875-1.875V12.75A3.75 3.75 0 0016.5 9h-1.875a1.875 1.875 0 01-1.875-1.875V5.25A3.75 3.75 0 009 1.5zm6.61 10.936a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 14.47a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                        <path d="M12.971 1.816A5.23 5.23 0 0114.25 5.25v1.875c0 .207.168.375.375.375H16.5a5.23 5.23 0 013.434 1.279 9.768 9.768 0 00-6.963-6.963z" />
+                      </svg>                                             
+                </div>
+                <div class="w-1/2">
+                    <h1 class="text-2xl xl:text-5xl font-black font-serif text-[#525252]">04</h1>
+                    <h2 class="text-2xl xl:text-2xl font-semibold font-serif mb-4 text-[#525252]">COMPLETE TRANSACTION PROCESS</h2>
+                    <p class="text-sm xl:text-base">
+                        Phasellus vitae leo ligula. Integer ultricies,
+                        nulla ut pulvinar imperdiet, ante mauris scelerisque 
+                        dui, sed mollis sem urna laoreet lorem. Ut sit amet vehicula ante.
+                    </p>
+                </div>
+            </div>
+            <!-- AFTER - SALE SERVICE -->
+            <div class="flex justify-between items-center py-3 xl:px-36">
+                <div class="w-1/2">
+                    <h1 class="text-2xl xl:text-5xl font-black font-serif text-[#525252]">05</h1>
+                    <h2 class="text-2xl xl:text-2xl font-semibold font-serif mb-4 text-[#525252]">AFTER - SALE SERVICE</h2>
+                    <p class="text-sm xl:text-base">
+                        Orci varius natoque penatibus et magnis dis 
+                        parturient montes, nascetur ridiculus mus. 
+                        Sed sit amet sagittis nibh. Aenean vel mattis 
+                        arcu. Suspendisse potenti. 
+                    </p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-24 h-24 xl:w-44 xl:h-44 text-[#525252]">
+                        <path fill-rule="evenodd" d="M12 6.75a5.25 5.25 0 016.775-5.025.75.75 0 01.313 1.248l-3.32 3.319c.063.475.276.934.641 1.299.365.365.824.578 1.3.64l3.318-3.319a.75.75 0 011.248.313 5.25 5.25 0 01-5.472 6.756c-1.018-.086-1.87.1-2.309.634L7.344 21.3A3.298 3.298 0 112.7 16.657l8.684-7.151c.533-.44.72-1.291.634-2.309A5.342 5.342 0 0112 6.75zM4.117 19.125a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd" />
+                        <path d="M10.076 8.64l-2.201-2.2V4.874a.75.75 0 00-.364-.643l-3.75-2.25a.75.75 0 00-.916.113l-.75.75a.75.75 0 00-.113.916l2.25 3.75a.75.75 0 00.643.364h1.564l2.062 2.062 1.575-1.297z" />
+                        <path fill-rule="evenodd" d="M12.556 17.329l4.183 4.182a3.375 3.375 0 004.773-4.773l-3.306-3.305a6.803 6.803 0 01-1.53.043c-.394-.034-.682-.006-.867.042a.589.589 0 00-.167.063l-3.086 3.748zm3.414-1.36a.75.75 0 011.06 0l1.875 1.876a.75.75 0 11-1.06 1.06L15.97 17.03a.75.75 0 010-1.06z" clip-rule="evenodd" />
+                    </svg>           
+                </div>
+            </div>
+        </div>
+
+        <!-- The Buying Process -->
+        <div class="px-12 lg:px-28 mb-10 relative z-0">
+            <h1 class="font-serif text-3xl xl:text-4xl text-center mb-20">The Buying Process</h1>
+            <!-- 1 and 2 -->
+            <div class="flex justify-center flex-wrap items-center gap-10 text-black mb-10">
+                <!-- 01 -->
+                <div class="flex items-center bg-slate-200 max-w-2xl hover:drop-shadow-md hover:scale-105 transition ease-in-out duration-500">
+                    <div class="hidden xl:block self-stretch bg-[#525252] p-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-white">
+                            <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zm9.586 4.594a.75.75 0 00-1.172-.938l-2.476 3.096-.908-.907a.75.75 0 00-1.06 1.06l1.5 1.5a.75.75 0 001.116-.062l3-3.75z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <div class="px-10 py-3">
+                        <h1 class="font-serif font-bold text-lg xl:text-xl mb-2 text-[#525252]">#1 INITIAL CONSULTATION & PLANNING</h1>
+                        <p class=" text-base">Aenean ultrices dictum sem at elementum. 
+                            Curabitur tincidunt arcu erat, vitae dictum 
+                            purus dictum ut. Curabitur et eros felis.
+                             Nunc sed ante sagittis, euismod quam non,
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 02 -->
+                <div class="flex items-center bg-slate-200 max-w-2xl hover:drop-shadow-md hover:scale-105 transition ease-in-out duration-500">
+                    <div class="hidden xl:block self-stretch bg-[#525252] p-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-white">
+                            <path d="M11.625 16.5a1.875 1.875 0 100-3.75 1.875 1.875 0 000 3.75z" />
+                            <path fill-rule="evenodd" d="M5.625 1.5H9a3.75 3.75 0 013.75 3.75v1.875c0 1.036.84 1.875 1.875 1.875H16.5a3.75 3.75 0 013.75 3.75v7.875c0 1.035-.84 1.875-1.875 1.875H5.625a1.875 1.875 0 01-1.875-1.875V3.375c0-1.036.84-1.875 1.875-1.875zm6 16.5c.66 0 1.277-.19 1.797-.518l1.048 1.048a.75.75 0 001.06-1.06l-1.047-1.048A3.375 3.375 0 1011.625 18z" clip-rule="evenodd" />
+                            <path d="M14.25 5.25a5.23 5.23 0 00-1.279-3.434 9.768 9.768 0 016.963 6.963A5.23 5.23 0 0016.5 7.5h-1.875a.375.375 0 01-.375-.375V5.25z" />
+                          </svg>                          
+                    </div>
+                    <div class="px-10 py-3">
+                        <h1 class="font-serif font-bold text-lg xl:text-xl mb-2 text-[#525252]">#2 SEARCH FOR A HOME & GET PRE-APPROVED</h1>
+                        <p class=" text-base">Sed vestibulum, risus sit 
+                            amet fermentum rhoncus, magna dolor 
+                            scelerisque eros, in dignissim massa ipsum in nisi.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 3 and 4 -->
+            <div class="flex justify-center flex-wrap items-center gap-10 text-black">
+                <!-- 03 -->
+                <div class="flex items-center bg-slate-200 max-w-2xl hover:drop-shadow-md hover:scale-105 transition ease-in-out duration-500">
+                    <div class="hidden xl:block self-stretch bg-[#525252] p-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-white">
+                            <path d="M3.478 2.405a.75.75 0 00-.926.94l2.432 7.905H13.5a.75.75 0 010 1.5H4.984l-2.432 7.905a.75.75 0 00.926.94 60.519 60.519 0 0018.445-8.986.75.75 0 000-1.218A60.517 60.517 0 003.478 2.405z" />
+                          </svg>                          
+                    </div>
+                    <div class="px-10 py-3">
+                        <h1 class="font-serif font-bold text-lg xl:text-xl mb-2 text-[#525252]">#3 SUBMIT AN OFFER</h1>
+                        <p class=" text-base">
+                            Vivamus eu nisl et lectus volutpat volutpat.
+                             In sit amet eleifend mauris. Nullam consectetur
+                              eleifend libero nec porttitor. Interdum et malesuada 
+                              fames ac ante ipsum primis in faucibus.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 04 -->
+                <div class="flex items-center bg-slate-200 max-w-2xl hover:drop-shadow-md hover:scale-105 transition ease-in-out duration-500">
+                    <div class="hidden xl:block self-stretch bg-[#525252] p-10">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-10 h-10 text-white">
+                            <path fill-rule="evenodd" d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12zm13.36-1.814a.75.75 0 10-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 00-1.06 1.06l2.25 2.25a.75.75 0 001.14-.094l3.75-5.25z" clip-rule="evenodd" />
+                          </svg>
+                    </div>
+                    <div class="px-10 py-3">
+                        <h1 class="font-serif font-bold text-lg xl:text-xl mb-2 text-[#525252]">#4 COMPLETE SETTLEMENT PROCESS</h1>
+                        <p class=" text-base">
+                            Integer ultricies, nulla ut pulvinar imperdiet, ante mauris scelerisque dui, 
+                            sed mollis sem urna laoreet lorem. Ut sit amet vehicula ante. 
+                            Mauris vehicula euismod convallis.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ----------- Divider -------------- -->
+        <div class="flex justify-center">
+            <hr class="w-[10%] bg-[#52525299] h-1">
+        </div>
+        <!-- ----------- Divider -------------- -->
+
+        <!-- We Market Your Home to The World -->
+        <div class="px-12 lg:px-28 z-0">
+            <h1 class="font-serif text-3xl xl:text-4xl text-center mb-20">We Market Your Home to The World</h1>
+
+            <div class="flex flex-col items-center mb-10
+                        lg:flex-row lg:justify-center lg:items-start lg:gap-7
+                        xl:flex-row xl:justify-center xl:items-start xl:gap-10 xl:mb-16">
+                <!-- Local Exposure -->
+                <div class="flex flex-col items-center mb-10
+                            xl:max-w-[30%] xl:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-[#525252]">
+                        <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                        <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                      </svg>                      
+                    <h2 class="text-center font-serif text-xl font-bold mb-3 text-[#525252]">Local Exposure</h2>
+                    <p class="text-sm text-center
+                            lg:text-left   
+                            xl:text-base">Through our partnership with Nextdoor, 
+                        the private online social network now used 
+                        in over 80% of U.S. neighborhoods and 
+                        virtually all Bay Area neighborhoods, 
+                        we make sure your home receives targeted 
+                        local exposure. When you list your home with 
+                        Hansen Partners it will automatically appear 
+                        on Nextdoor in your neighborhood.
+                    </p>
+                </div>
+                <!-- National Exposure -->
+                <div class="flex flex-col items-center mb-10
+                            xl:max-w-[30%] xl:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-[#525252]">
+                        <path fill-rule="evenodd" d="M3 2.25a.75.75 0 01.75.75v.54l1.838-.46a9.75 9.75 0 016.725.738l.108.054a8.25 8.25 0 005.58.652l3.109-.732a.75.75 0 01.917.81 47.784 47.784 0 00.005 10.337.75.75 0 01-.574.812l-3.114.733a9.75 9.75 0 01-6.594-.77l-.108-.054a8.25 8.25 0 00-5.69-.625l-2.202.55V21a.75.75 0 01-1.5 0V3A.75.75 0 013 2.25z" clip-rule="evenodd" />
+                    </svg>                                          
+                    <h2 class="text-center font-serif text-xl font-bold mb-3 text-[#525252]">National Exposure</h2>
+                    <p class="text-sm text-center
+                            lg:text-left   
+                            xl:text-base">
+                        We secure strategic positioning and enhancement on Realtor.com,
+                         Trulia, and Zillow, driving more consumers to your home and 
+                         increasing exposure. We  will receive every inquiry about 
+                         your property directly.
+                    </p>
+                </div>
+                <!-- International Exposure -->
+                <div class="flex flex-col items-center mb-10
+                            xl:max-w-[30%] xl:mb-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-12 h-12 text-[#525252]">
+                        <path d="M15.75 8.25a.75.75 0 01.75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 11-.992-1.124A2.243 2.243 0 0015 9a.75.75 0 01.75-.75z" />
+                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a8.25 8.25 0 009.348 4.425 1.966 1.966 0 00-1.84-1.275.983.983 0 01-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 012.328-.377L16.5 15h.628a2.25 2.25 0 011.983 1.186 8.25 8.25 0 00-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.575 15.6z" clip-rule="evenodd" />
+                    </svg>         
+                    <h2 class="text-center font-serif text-xl font-bold mb-3 text-[#525252]">International Exposure</h2>
+                    <p class="text-sm text-center
+                            lg:text-left   
+                            xl:text-base">
+                        To expose your luxury listing to millions of potential
+                         homebuyers worldwide, we promote on prominent international 
+                         real estate portals, including: Wall Street Journal, 
+                         LuxuryPortfolio.com, LuxuryRealEstate.com, LeadingRE.com, 
+                         UniqueHomes.com, China.apr.com, Caimeiju, Juwai, Country Life UK
+                    </p>
+                </div>
+            </div>
+
+            <!-- Partners -->
+            <div class="flex flex-col items-center">
+                <img src="assets/partenrs.png" width="350" alt="" class="mb-10 xl:mb-16">
+                <h3 class="text-xl xl:text-2xl font-serif font-bold mb-5">
+                    Our Online Marketing Strategy
+                </h1>
+
+                <p class="text-lg xl:text-xl text-center px-20">
+                    The Bay Area remains one of the world's most sought-after 
+                    regions to live in, and when looking to sell, it is vital 
+                    that your home be marketed online to audiences locally, 
+                    nationally, and internationally.
+                </p>
+            </div>
+        </div>
+
+        <!-- ----------- Divider -------------- -->
+        <div class="flex justify-center">
+            <hr class="w-[10%] bg-[#52525299] h-1">
+        </div>
+        <!-- ----------- Divider -------------- -->
+
+        <!-- Experience -->
+        <div class="px-12 lg:px-28 z-0">
+            <!-- Over 33 years -->
+            <div class="flex items-center mb-10 gap-x-10">
+                <div class="text-left xl:text-right">
+                    <h1 class="font-serif text-3xl xl:text-4xl mb-5 text-center xl:text-right">Over 33 Years of Real Estate Success</h1>
+                    <p class="text-lg xl:text-xl">
+                        We provide every one of our clients with a level of service they
+                        won’t find anywhere else. We give them what they need, often 
+                        before they know they need it. ​​​​​​​In real estate, almost everything 
+                        can be negotiated. When you choose Hansen Partners It is 
+                        experience is 100% nonnegotiable. ​​​​​​​ ​​​​​​​And it’s an experience like no other.
+                    </p>
+                </div>
+                <img src="assets/image 8.png" width="500" alt="" class="hidden xl:block">
+            </div>
+
+            <!-- Unforgettable experience -->
+            <div class="flex items-center gap-x-10">
+                <img src="assets/image 9.png" width="500" alt="" class="hidden xl:block">
+                <div class="">
+                    <h1 class="font-serif text-3xl xl:text-4xl text-center xl:text-left mb-5">We Want To Create An Unforgettable Experience For You...</h1>
+                    <p class="text-lg xl:text-xl">
+                        We combine data gained from your home’s 
+                        Comparative Market Analysis with local market 
+                        research to create a marketing plan designed to 
+                        help you meet your selling goals. Your home’s 
+                        carefully designed plan will include a range of 
+                        online, print, and other marketing tools targeted 
+                        to the best-qualified pool of buyers. ​​​​​​​ Successfully 
+                        marketing a home in today’s real estate environment 
+                        requires a firm with experience and flexibility. 
+                        Hansen Partners provides both.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+        <!-- Tablet Comm -->
+        <div class="z-0 px-12 lg:px-28 py-16 text-white bg-fixed bg-top bg-cover bg-no-repeat" style="background-image: url(assets/hansens-comm-tablet-bg.png);">
+            <h1 class="font-serif font-bold text-4xl mb-5 text-center">The Hansen Partners Communications Tablet</h1>
+            <h2 class="text-center text-2xl mb-20 font-light">
+                We have created this as a wonderful tool 
+                so that we can communicate with you daily, 
+                provide you with updates on what is happening with 
+                your home. We are available at the with a click 
+                of your tablet.
+            </h2>
+
+            <!-- <div class="flex justify-center my-5">
+                <hr class="w-[10%] bg-[#52525299] h-1">
+            </div> -->
+
+            <h2 class="font-bold text-2xl">Benefits:</h2>
+            <ul class="list-disc text-xl font-normal leading-loose mb-20">
+                <li>Review all documents and sign in the comfort of your home or anywhere.</li>
+                <li>Stay up to date on all marketing activities, review materials, photos, etc. in real time.</li>
+                <li>Meet with us face to face on our Gotomeeting.com platform to go over and discuss the events of the week.</li>
+                <li>You have your own email assigned just for you and your 
+                    common space to quickly write a note, or quickly 
+                    send a video message to us for fast communication 
+                    using our Bomb bomb video messaging system.
+                </li>
+            </ul>
+
+            <div class="flex justify-center my-5">
+                <hr class="w-[100%] bg-[#52525299] h-1">
+            </div>
+
+            <h2 class="text-center text-2xl font-light">We believe that transparency and guiding you and 
+                your family through the process is key to having 
+                the best experience.  During these uncertain times. 
+                It is a good feeling to know you have some one with a 
+                proven track record you can count on.  We will be here 
+                to handle your needs during the Real Estate process.  
+                We think of it before a need even arises. Because, 
+                that is just what we do.  Who you work with does matter! </h2>
+        </div>
+
+        <!-- ----------- Divider -------------- -->
+        <div class="flex justify-center">
+            <hr class="w-[10%] bg-[#52525299] h-1">
+        </div>
+        <!-- ----------- Divider -------------- -->
+
+        <!-- Partners / Global -->
+        <div class="px-12 lg:px-28 z-0">
+            <h1 class="font-serif font-bold text-4xl mb-10 text-center">OUR PARTNERS IN <span class="text-[#C68306]">LUXURY</span></h1>
+            <div class="flex justify-center gap-7 items-center mb-7">
+                <img src="assets/leading.png" width="200" alt="">
+                <img src="assets/who's who in luxury.png" width="200" alt="">
+                <img src="assets/luxury portfolio.png" width="200" alt="">
+            </div>
+
+            <h2 class="font-bold text-center mb-10">Leading Real Estate Companies of The World® & Luxury Portfolio International</h2>
+            <div class="w-full flex justify-center mb-20">
+                <p class="text-center max-w-[70%]">JRockcliff is a founding member of Luxury Portfolio International®, 
+                    the luxury division of Leading Real Estate Companies of the World®. 
+                    With more than 500 member firms around the world, Our luxury listings 
+                    are exposed to a vast global audience and reach potential buyers and 
+                    investors in over 50 countries.
+                </p>
+            </div>
+            <h1 class="font-serif font-bold text-4xl mb-10 text-center">WE’RE<span class="text-[#C68306]">GLOBAL</span></h1>
+            <div class="w-full flex justify-center mb-10">
+                <p class="text-center max-w-[70%]">
+                    Through our international affiliations, 
+                    we have a strong presence in over 50 countries. 
+                    Our luxury listings are sent to prominent international
+                     real estate sites, reaching over 70 million potential 
+                     buyers and investors worldwide through our relationships with:
+                </p>
+            </div>
+            <div class="flex justify-center gap-7 items-center mb-7">
+                <img src="assets/leading.png" width="100" alt="">
+                <img src="assets/who's who in luxury.png" width="100" alt="">
+                <img src="assets/luxury portfolio.png" width="100" alt="">
+            </div>
+            <div class="w-full flex justify-center mb-10">
+                <p class="text-center max-w-[70%]">
+                    We also have several well-positioned 
+                    affiliate offices in China, providing 
+                    our clients with access to buyers in Hong Kong, 
+                    Shanghai, and Beijing. 
+                </p>
+            </div>
+        </div>
+
+        <!-- ----------- Divider -------------- -->
+        <div class="flex justify-center">
+            <hr class="w-[10%] bg-[#52525299] h-1">
+        </div>
+        <!-- ----------- Divider -------------- -->
+
+        <!-- Syndication / Responsive -->
+        <div class="z-0 px-12 lg:px-28 grid grid-cols-12 grid-rows-3">
+            <!-- Responsive -->
+            <div class="col-span-6 row-span-1 p-10 flex flex-col items-center text-center">
+                <img src="assets/responsive.png" width="280" alt="">
+                <h3 class="text-2xl font-serif font-bold mb-4">Responsive</h1>
+                <p class="max-w-[50%]">I am always available via phone, text, or email to answer your questions in a timely manner.</p>
+            </div>
+            <!-- Tablet Image -->
+            <div class="col-span-6 row-span-2 p-10 flex justify-center">
+                <img src="assets/tablet.png" width="500" alt="">
+            </div>
+            <!-- Syndication -->
+            <div class="col-span-6 row-span-1 p-10 flex flex-col items-center text-center">
+                <img src="assets/syndication.png" width="280" alt="">
+                <h3 class="text-2xl font-serif font-bold mb-4">Syndication</h1>
+                <p class="max-w-[50%]">I market your property locally, nationally, and internationally.</p>
+            </div>
+            <div class="col-span-6 row-span-1 p-10 flex flex-col items-center text-center">
+                <img src="assets/virtual tour.png" width="280" alt="">
+                <h3 class="text-2xl font-serif font-bold mb-4">Vitual Tour</h1>
+                <p class="max-w-[50%]">Let’s make your home stand out with a high quality virtual tour.</p>
+            </div>
+            <div class="col-span-6 row-span-1 p-10 flex flex-col items-center text-center">
+                <img src="assets/drone photography.png" width="280" alt="">
+                <h3 class="text-2xl font-serif font-bold mb-4">Drone Photography</h1>
+                <p class="max-w-[50%]">Beautiful photography is a central part of our marketing plan for your property.</p>
+            </div>
+        </div>
+
+        <!-- ----------- Divider -------------- -->
+        <div class="flex justify-center">
+            <hr class="w-[10%] bg-[#52525299] h-1">
+        </div>
+        <!-- ----------- Divider -------------- -->
+
+        <!-- Work With Us -->
+        <div class="z-0 px-12 lg:px-28">
+            <div class="border-4 border-black py-10 px-20 flex justify-between items-center">
+                <div>
+                    <h1 class="font-serif font-bold text-4xl mb-4">Work With Us</h1>
+                    <p class="max-w-[60%] mb-4">With decades of experience in luxurious Tri Valley real
+                         estate, our team is here to ensure that your dreams 
+                         are a reality. Let us guide you through your home 
+                         buying journey, contact us today!
+                    </p>
+                    <hr class="w-[12%] bg-black h-1"></hr>
+                </div>
+                
+                <div class="min-w-fit">
+                    <button class="text-white bg-black p-4 hover:bg-[#525252] hover:text-white transition-all flex items-center gap-x-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
+                            <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                          </svg>                          
+                        CONTACT US
+                    </button>
+                    <p class="text-center">Work with us now!</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="z-0 px-12 lg:px-28 py-20 bg-black text-white grid grid-cols-12 gap-x-5">
+            <!-- Left -->
+            <div class="col-span-6">
+                <h2 class="text-3xl font-serif font-semibold mb-7">Julie Hansen Partnership</h2>
+                <p class="text-sm font-thin">
+                    An elite group of the East Bay’s most talented and
+                     visionary real estate professionals believed buyers 
+                     and sellers deserved more from their real estate company. 
+                     More service. More resources. More integrity. More 
+                     global reach. In a word, more of everything people 
+                     should expect when they buy or sell their homes.
+                </p>
+            </div>
+
+            <!-- Right -->
+            <div class="col-span-6 flex justify-evenly items-center gap-x-10 mb-20">
+                <div class="">
+                    <h5 class="mb-7"">ADDRESS</h5>
+                    <address class="font-thin">5075 Hopyard Road, Suite 110
+                        Pleasanton, CA 94588</address>
+                    <p class="font-thin">​​​​​​​Julie Hansen-Orvis | CA DRE# 00934447</p>
+                    </div>
+
+                <div>
+                    <h5 class="mb-7">CONTACT INFORMATION</h5>
+                    <p class="font-thin hover:underline"><a href="tel:(925) 980-4925">(925) 980-4925</a></p>
+                    <p class="font-thin hover:underline"><a href="mailto:hansenpartners.re@gmail.com">hansenpartners.re@gmail.com</a></p>
+                </div>
+            </div>
+
+            <!-- Left -->
+            <div class="col-span-6">
+                <h5 class="text-3xl font-serif font-semibold mb-7">Newsletter</h5>
+                <p class="max-w-[35%] mb-10 font-thin">Subscribe to our Newsletter for latest news and updates. Stay tuned! </p>
+                <input type="email" placeholder="Email Address" class=" border-b-2 border-b-white outline-none bg-transparent w-[80%]">
+            </div>
+
+            <!-- Right -->
+            <div class="col-span-6 flex justify-around items-start gap-x-10 mb-20">
+                <div>
+                    <h5 class="mb-7">SOCIALS:</h5>
+                    <div class="space-x-4">
+                        <a href="#" class=""><i class="bi bi-facebook text-3xl"></i></a>
+                        <a href="#" class=""><i class="bi bi-instagram text-3xl"></i></a>
+                        <a href="#" class=""><i class="bi bi-linkedin text-3xl"></i></a>
+                    </div>
+                </div>
+                
+                <div class="flex gap-x-6 items-center">
+                    <div>
+                        <img src="/assets/realtor-logo.png" width="45" alt="">
+                    </div>
+                    <div>
+                        <img src="/assets/equal-housing-logo.png" width="45" alt="">
+                    </div>
+                    <div>
+                        <img src="/assets/sereno-logo.png" width="45" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+
+            <hr class="col-span-12 bg-slate-900 border-slate-700 mt-16 mb-4">
+            <div class="col-span-12 flex justify-between items-center font-light">
+                <p>Copyright 2022 | Privacy Policy</p>
+                <p>Website Designed & Developed by <a href="#">Luxury Presence.</a></p>
+            </div>
+        </footer>
+
+        <!-- Back to top Button -->
+        <div class="fixed bottom-10 right-12 xl:right-28 z-20" id="btn-back-to-top">
+            <button class="">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-14 h-14">
+                    <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zm.53 5.47a.75.75 0 00-1.06 0l-3 3a.75.75 0 101.06 1.06l1.72-1.72v5.69a.75.75 0 001.5 0v-5.69l1.72 1.72a.75.75 0 101.06-1.06l-3-3z" clip-rule="evenodd" />
+                  </svg>                  
+            </button>
+        </div>
+    </div>
+</body>
+</html>

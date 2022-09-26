@@ -1,0 +1,73 @@
+move search bar / call to action on top of the banner
+make comprehensive marketing plan section all in a single row.
+make banner background a video
+
+DECOR GUIDANCE
+
+INTENTIONAL LAYOUT
+
+
+home / house - LOCAL
+flag - NATIONAL
+globe - INTERNATIONAL
+
+COLORS
+GREEN - #525252
+GOLD - #C68306
+
+
+
+
+
+
+
+<div class="flex justify-center items-start gap-x-20">
+                <div>
+                    <!-- 01 -->
+                    <div class="flex items-center gap-x-4 justify-end mb-24">
+                        <h1 class="text-5xl font-serif font-black">#01</h1>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-14 h-14">
+                            <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zm9.586 4.594a.75.75 0 00-1.172-.938l-2.476 3.096-.908-.907a.75.75 0 00-1.06 1.06l1.5 1.5a.75.75 0 001.116-.062l3-3.75z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+
+                    <div class="mb-12 text-right">
+                        <h3 class="font-serif font-bold text-2xl">INITIAL CONSULTATION AND PLANNING</h1>
+                        <p class=" whitespace-pre-line">Aenean ultrices dictum sem at elementum. 
+                            Curabitur tincidunt arcu erat, vitae dictum 
+                            purus dictum ut. Curabitur et eros felis. Nunc 
+                            sed ante sagittis, euismod quam non,</p>
+                    </div>
+                </div>
+                <!-- Steps Bar SVG -->
+                <div>
+                    <svg width="20" height="800" viewBox="0 0 37 1649" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="18" y1="2.18557e-07" x2="17.9999" y2="1649" stroke="white" stroke-width="10"/>
+                        <circle cx="19" cy="121" r="18" fill="white"/>
+                        <circle cx="19" cy="482" r="18" fill="white"/>
+                        <circle cx="18" cy="804" r="18" fill="white"/>
+                        <circle cx="18" cy="1163" r="18" fill="white"/>
+                    </svg>
+                </div>
+                <!-- Right -->
+                <div class="flex flex-col">
+                    <div class="mb-12">
+                        <h3 class="font-serif font-bold text-2xl">INITIAL CONSULTATION AND PLANNING</h1>
+                        <p class=" whitespace-pre-line">Aenean ultrices dictum sem at elementum. 
+                            Curabitur tincidunt arcu erat, vitae dictum 
+                            purus dictum ut. Curabitur et eros felis. Nunc 
+                            sed ante sagittis, euismod quam non,</p>
+                    </div>
+
+                    <!-- 02 -->
+                    <div class="flex items-center gap-x-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-14 h-14">
+                            <path fill-rule="evenodd" d="M7.502 6h7.128A3.375 3.375 0 0118 9.375v9.375a3 3 0 003-3V6.108c0-1.505-1.125-2.811-2.664-2.94a48.972 48.972 0 00-.673-.05A3 3 0 0015 1.5h-1.5a3 3 0 00-2.663 1.618c-.225.015-.45.032-.673.05C8.662 3.295 7.554 4.542 7.502 6zM13.5 3A1.5 1.5 0 0012 4.5h4.5A1.5 1.5 0 0015 3h-1.5z" clip-rule="evenodd" />
+                            <path fill-rule="evenodd" d="M3 9.375C3 8.339 3.84 7.5 4.875 7.5h9.75c1.036 0 1.875.84 1.875 1.875v11.25c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 013 20.625V9.375zm9.586 4.594a.75.75 0 00-1.172-.938l-2.476 3.096-.908-.907a.75.75 0 00-1.06 1.06l1.5 1.5a.75.75 0 001.116-.062l3-3.75z" clip-rule="evenodd" />
+                        </svg>
+                        <h1 class="text-5xl font-serif font-black">#02</h1>
+                    </div>
+                </div>
+                
+            </div>

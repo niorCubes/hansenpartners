@@ -1,0 +1,71 @@
+/* ------------ Show Nav Animation ------------ */
+.nav-bar-anim{
+    padding: 1rem;
+    transform: translateY(-4rem);
+    overflow: hidden;
+    display: hidden;
+    background: #000;
+   -moz-animation: slide .5s ease .2s forwards;
+   -webkit-animation: slide .5s ease .2s forwards;
+   -o-animation: slide .5s ease .2s forwards;
+   -ms-animation: slide .5s ease .2s forwards;
+    animation: slide .5s ease .2s forwards;
+}
+
+@-moz-keyframes slide /* Firefox */
+{
+    from {transform: translateY(-4rem);}
+    to {transform: translateY(0);}
+}
+
+@-webkit-keyframes slide /* Safari and Chrome */
+{
+    from {transform: translateY(-4rem);}
+    to {transform: translateY(0);}
+}
+
+@keyframes slide
+{
+    from {transform: translateY(-4rem);}
+    to {transform: translateY(0);}
+}
+/* ------------ Show Nav Animation ------------ */
+
+
+
+
+
+/* ------------ HIDE Nav Animation ------------ */
+
+.hide-nav-bar-anim{
+    z-index: 10;
+    padding: 1rem;
+    transform: translateY(0);
+    overflow: hidden;
+    background: #000;
+   -moz-animation: hide .5s ease .2s forwards;
+   -webkit-animation: hide .5s ease .2s forwards;
+   -o-animation: hide .5s ease .2s forwards;
+   -ms-animation: hide .5s ease .2s forwards;
+    animation: hide .5s ease .2s forwards;
+}
+
+@-moz-keyframes hide /* Firefox */
+{
+    from {transform: translateY(0);}
+    to {transform: translateY(-4rem);}
+}
+
+@-webkit-keyframes hide /* Safari and Chrome */
+{
+    from {transform: translateY(0);}
+    to {transform: translateY(-4rem);}
+}
+
+@keyframes hide
+{
+    from {transform: translateY(0);}
+    to {transform: translateY(-4rem);}
+}
+
+/* ------------ HIDE Nav Animation ------------ */
